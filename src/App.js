@@ -7,8 +7,8 @@ function App() {
   return (
     <main>
       <div className="container">
-        <List data={data} />
-        <button>Clear All</button>
+        <List people={people} />
+        <button onClick={() => setPeople([])}>Clear All</button>
       </div>
     </main>
   );
